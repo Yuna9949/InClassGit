@@ -6,3 +6,6 @@ def calc(a, b):
     divide = a / b
 
     list = [sum, difference, multiply, divide]
+
+    Sum = sum(list)
+    print(Sum)
