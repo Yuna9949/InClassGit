@@ -7,6 +7,10 @@ def password_generator(length):
         randomNum = random.randrange(len(alpabet))
         password = password + alpabet[randomNum]
     return password
+    
+length = int(input('Input length of password : '))
+print("password : ", end='')
+print(password_generator(length))
 
 
 
